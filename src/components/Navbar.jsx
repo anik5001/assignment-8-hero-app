@@ -67,7 +67,7 @@ const Navbar = () => {
           </div>
           <div className="navbar-end ">
             <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-2 px-4 rounded-xl text-white">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
               <a
                 href="https://github.com/anik5001"
                 target="_blank"

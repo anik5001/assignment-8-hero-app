@@ -6,9 +6,9 @@ import Banner from "../components/Banner";
 
 const MainLayOut = () => {
   return (
-    <div className=" flex flex-col min-h-screen">
+    <div className=" flex flex-col min-h-screen bg-[#f5f7f9]">
       <Navbar></Navbar>
-      <Banner></Banner>
+
       <div className="flex-1">
         <Outlet></Outlet>
       </div>

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "EduLearn",
+    "companyName": "BrightMind Technologies",
+    "id": 1,
+    "description": "EduLearn is an all-in-one educational platform that connects students and teachers through online courses, quizzes, and live sessions. It supports personalized learning paths, progress tracking, and real-time feedback to make online education more interactive and accessible for learners across all skill levels.",
+    "size": 60,
+    "reviews": 1250,
+    "ratingAvg": 4.6,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 540 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "HealthTrack",
+    "companyName": "FitLife Labs",
+    "id": 2,
+    "description": "HealthTrack helps you monitor your daily fitness and wellness activities, including steps, calories, heart rate, and sleep quality. It provides AI-driven insights and personalized plans to improve your health and motivate you to stay consistent with your exercise goals and lifestyle habits.",
+    "size": 85,
+    "reviews": 1980,
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "TaskPro",
+    "companyName": "WorkFlow Inc.",
+    "id": 3,
+    "description": "TaskPro is a productivity management tool designed for individuals and teams to organize, track, and complete tasks efficiently. It supports smart reminders, progress charts, and team collaboration to boost workflow efficiency and maintain focus on your daily goals and deadlines.",
+    "size": 45,
+    "reviews": 870,
+    "ratingAvg": 4.3,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 310 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "ShopEasy",
+    "companyName": "RetailWorks",
+    "id": 4,
+    "description": "ShopEasy is a modern e-commerce app that offers millions of products with great discounts and fast delivery. You can compare prices, read verified reviews, and get personalized recommendations based on your browsing habits. ShopEasy ensures a smooth shopping experience with secure payments.",
+    "size": 90,
+    "reviews": 2500,
+    "ratingAvg": 4.5,
+    "downloads": "9.1M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 620 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "NoteMaster",
+    "companyName": "ScribeSoft",
+    "id": 5,
+    "description": "NoteMaster helps you capture ideas, create to-do lists, and sync notes across all your devices. It includes handwriting recognition, speech-to-text, and cloud backup features. Whether for study or work, NoteMaster keeps your thoughts organized and accessible anytime, anywhere.",
+    "size": 38,
+    "reviews": 640,
+    "ratingAvg": 4.2,
+    "downloads": "670K",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "FinMate",
+    "companyName": "SmartFinance",
+    "id": 6,
+    "description": "FinMate is your intelligent finance tracker that helps you manage expenses, create budgets, and analyze spending patterns. It connects securely to your bank and credit cards to give real-time financial insights and ensure you stay on track with your financial goals and savings.",
+    "size": 55,
+    "reviews": 1580,
+    "ratingAvg": 4.6,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "PhotoFix",
+    "companyName": "PixelCraft",
+    "id": 7,
+    "description": "PhotoFix lets you edit, enhance, and transform your photos using AI-powered tools. With one-tap filters, background remover, and color correction features, anyone can create professional-quality images. It’s fast, intuitive, and perfect for both beginners and creative professionals alike.",
+    "size": 95,
+    "reviews": 2140,
+    "ratingAvg": 4.7,
+    "downloads": "8M",
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 230 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "Newsly",
+    "companyName": "GlobalMedia Corp",
+    "id": 8,
+    "description": "Newsly provides real-time news updates from trusted sources worldwide. You can personalize your feed, follow your favorite topics, and receive instant breaking news alerts. With its clean design and AI summarization, Newsly keeps you informed without overwhelming you with information.",
+    "size": 40,
+    "reviews": 930,
+    "ratingAvg": 4.4,
+    "downloads": "1.7M",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 240 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=9",
+    "title": "SkillUp",
+    "companyName": "NextGen Learning",
+    "id": 9,
+    "description": "SkillUp helps users learn practical skills through interactive video lessons and real-world projects. It covers topics from technology and design to business and communication. Certificates and career tips help learners showcase their achievements and advance their professional growth confidently.",
+    "size": 78,
+    "reviews": 1800,
+    "ratingAvg": 4.6,
+    "downloads": "6.3M",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 110 },
+      { "name": "3 star", "count": 210 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 970 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=10",
+    "title": "Chatly",
+    "companyName": "Connectify",
+    "id": 10,
+    "description": "Chatly is a fast, secure, and modern messaging app that allows users to send text, voice, and video messages with end-to-end encryption. Group chats, stickers, file sharing, and disappearing messages make communication more expressive, safe, and enjoyable across platforms.",
+    "size": 120,
+    "reviews": 3250,
+    "ratingAvg": 4.8,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1890 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=11",
+    "title": "TravelGo",
+    "companyName": "ExploreMore",
+    "id": 11,
+    "description": "TravelGo is your ultimate travel companion that helps you plan, book, and explore destinations around the world. From affordable hotels to exciting local attractions, everything is just a tap away. Its smart recommendation engine tailors suggestions to your interests, ensuring memorable trips every time.",
+    "size": 80,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": "4.3M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 660 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=12",
+    "title": "Quizify",
+    "companyName": "BrainHub",
+    "id": 12,
+    "description": "Quizify challenges your brain with thousands of fun quizzes and trivia games across different topics. Compete with friends, climb the leaderboard, and improve your general knowledge. It’s designed for both casual players and trivia lovers who enjoy testing their intelligence in a playful way.",
+    "size": 42,
+    "reviews": 520,
+    "ratingAvg": 4.1,
+    "downloads": "300K",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 180 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=13",
+    "title": "LangLearn",
+    "companyName": "LinguaTech",
+    "id": 13,
+    "description": "LangLearn makes language learning fun and interactive using AI-driven lessons and pronunciation practice. You can learn to speak confidently through conversations, games, and listening exercises. It supports more than 20 languages, helping learners achieve fluency with consistency and motivation every day.",
+    "size": 67,
+    "reviews": 1650,
+    "ratingAvg": 4.7,
+    "downloads": "7.8M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 850 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=14",
+    "title": "GameBoost",
+    "companyName": "XtremeSoft",
+    "id": 14,
+    "description": "GameBoost improves gaming performance by optimizing memory, CPU, and GPU usage. It reduces lag, boosts frame rates, and clears background tasks for smoother gameplay. Whether you play online or offline, GameBoost helps you experience faster, more responsive gaming sessions on any device.",
+    "size": 50,
+    "reviews": 950,
+    "ratingAvg": 4.3,
+    "downloads": "890K",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 380 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=15",
+    "title": "DocScan",
+    "companyName": "ScanPro",
+    "id": 15,
+    "description": "DocScan turns your mobile phone into a portable scanner. Capture, crop, enhance, and convert documents to PDF or image formats in seconds. Its OCR feature lets you extract text from scanned pages, making digital document management effortless for students and professionals alike.",
+    "size": 36,
+    "reviews": 740,
+    "ratingAvg": 4.4,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=16",
+    "title": "CalmMind",
+    "companyName": "MindEase Labs",
+    "id": 16,
+    "description": "CalmMind offers guided meditation, relaxing sounds, and sleep stories to help you manage stress and anxiety. It features breathing exercises and mindfulness routines that adapt to your mood. Users around the world use CalmMind to improve focus, sleep better, and find daily calmness.",
+    "size": 85,
+    "reviews": 1300,
+    "ratingAvg": 4.8,
+    "downloads": "5.9M",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 760 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=17",
+    "title": "CryptoTrack",
+    "companyName": "FinChain Labs",
+    "id": 17,
+    "description": "CryptoTrack keeps you informed about live cryptocurrency prices, market trends, and portfolio performance. It includes price alerts, news updates, and detailed analytics for traders and investors. CryptoTrack ensures you never miss an opportunity in the fast-moving world of digital assets.",
+    "size": 58,
+    "reviews": 980,
+    "ratingAvg": 4.5,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=18",
+    "title": "CookBook Pro",
+    "companyName": "TasteTech",
+    "id": 18,
+    "description": "CookBook Pro helps you discover, organize, and create recipes with step-by-step instructions. Whether you’re a beginner or an expert chef, it offers personalized meal plans and grocery lists. Its vibrant community shares cooking tips and creative dishes from all around the world.",
+    "size": 72,
+    "reviews": 1500,
+    "ratingAvg": 4.6,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 160 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=19",
+    "title": "Readify",
+    "companyName": "BookVerse",
+    "id": 19,
+    "description": "Readify provides thousands of eBooks, magazines, and articles in one elegant reading platform. You can customize themes, fonts, and lighting to make reading comfortable anywhere. Offline reading and note-taking features make it perfect for book lovers who never want to stop exploring knowledge.",
+    "size": 68,
+    "reviews": 1150,
+    "ratingAvg": 4.5,
+    "downloads": "2.9M",
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=20",
+    "title": "MusicFlow",
+    "companyName": "AudioLabs",
+    "id": 20,
+    "description": "MusicFlow lets you stream millions of songs, create custom playlists, and discover trending tracks globally. It provides seamless offline mode, lyrics sync, and premium-quality sound. Whether you’re relaxing or working, MusicFlow delivers a rich audio experience tailored to your taste and mood.",
+    "size": 100,
+    "reviews": 2600,
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1280 }
+    ]
+  }
+]
