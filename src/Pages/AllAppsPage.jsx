@@ -31,8 +31,13 @@ const AllAppsPage = () => {
             <h1 className="font-semibold text-2xl">
               ({searchData.length}) Apps Found
             </h1>
-            <label className="input">
-              <input value={search} type="search" placeholder="Search Apps" />
+            <label className="input border-blue-700">
+              <input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                type="search"
+                placeholder="Search Apps"
+              />
             </label>
           </div>
 

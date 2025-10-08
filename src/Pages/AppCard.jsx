@@ -6,9 +6,13 @@ import { Link } from "react-router";
 const AppCard = ({ singleData }) => {
   return (
     <Link to={`/details/${singleData.id}`}>
-      <div className="shadow rounded-md p-4 w-fit space-y-3">
+      <div className="shadow rounded-md p-4 w-fit space-y-3 hover:scale-105 transition ease-in-out">
         <div>
-          <img className="rounded-md" src={singleData.image} alt="" />
+          <img
+            className="rounded-md w-[200px] h-[200px] overflow-hidden object-cover"
+            src={singleData.image}
+            alt=""
+          />
         </div>
         <h1 className="font-medium text-xl">{singleData.title}</h1>
         <div className="flex justify-between">

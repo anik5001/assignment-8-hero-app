@@ -37,11 +37,11 @@ const Banner = () => {
         </div>
       </Container>
       <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] p-20">
-        <h1 className="text-center text-5xl font-bold text-white mb-10">
+        <h1 className="text-center  text-5xl font-bold text-white mb-10">
           Trusted by Millions, Built for You
         </h1>
 
-        <div className="flex justify-center gap-30">
+        <div className="md:flex justify-center gap-30">
           <div className="text-[#ffffff] space-y-2 text-center">
             <p>Total Downloads</p>
             <p className="font-bold text-7xl">29.6M</p>

@@ -26,9 +26,13 @@ const Installations = () => {
   }
   const sortedInstalledApp = (() => {
     if (sortOrder === "sort-asc") {
-      return [...installed].sort((a, b) => a.size - b.size);
+      return [...installed].sort(
+        (a, b) => a.downloads_number - b.downloads_number
+      );
     } else if (sortOrder === "sort-desc") {
-      return [...installed].sort((a, b) => b.size - a.size);
+      return [...installed].sort(
+        (a, b) => b.downloads_number - a.downloads_number
+      );
     } else {
       return installed;
     }
@@ -60,7 +64,7 @@ const Installations = () => {
                     value={sortOrder}
                     onChange={(e) => setOrder(e.target.value)}
                   >
-                    <option value="none">Sort By Size</option>
+                    <option value="none">Sort By Downloads</option>
                     <option value="sort-asc">Low&lt;-High</option>
                     <option value="sort-desc">High-&gt;Low</option>
                   </select>
