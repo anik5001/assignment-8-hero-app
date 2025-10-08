@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const getStoreApp = () => {
   try {
     const data = localStorage.getItem("installed");
@@ -11,8 +13,8 @@ const addToStoreDb = (app) => {
   const storeAppData = getStoreApp();
   try {
     const isDuplicated = storeAppData.some((p) => p.id === app.id);
-    if (isDuplicated) return alert("already eyye");
-    alert("✅app install");
+    if (isDuplicated) return;
+    toast("✅App Installed");
     const updatedStoreApp = [...storeAppData, app];
     localStorage.setItem("installed", JSON.stringify(updatedStoreApp));
   } catch (err) {

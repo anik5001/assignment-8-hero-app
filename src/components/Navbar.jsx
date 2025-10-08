@@ -48,8 +48,8 @@ const Navbar = () => {
               </ul>
             </div>
             <Link to="/" className="flex items-center gap-2">
-              <img className="w-[50px]" src={logoImg} alt="" />
-              <h1 className="font-bold text-xl">HERO.IO</h1>
+              <img className="w-[50px] hidden md:block" src={logoImg} alt="" />
+              <h1 className="font-bold text-xl ">HERO.IO</h1>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">

@@ -18,6 +18,7 @@ import {
   YAxis,
 } from "recharts";
 import { addToStoreDb, getStoreApp } from "../Utility/addToLocalSt";
+import Loading from "../components/Loading";
 
 const DetailsAppCard = () => {
   const [toggle, setToggle] = useState(false);
@@ -32,8 +33,8 @@ const DetailsAppCard = () => {
   const appId = Number(id);
   const allReadyInstalled = getStoreApp();
   const isAllReadyInstalled = allReadyInstalled.filter((p) => p.id === appId);
-  console.log(isAllReadyInstalled);
-  if (loading) return <span>Loading...</span>;
+
+  if (loading) return <Loading></Loading>;
   const appDetail = appData.find((app) => app.id === appId);
 
   return (
