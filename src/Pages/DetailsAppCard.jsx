@@ -17,17 +17,22 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
+import { addToStoreDb, getStoreApp } from "../Utility/addToLocalSt";
 
 const DetailsAppCard = () => {
   const [toggle, setToggle] = useState(false);
-  const handleInstallBtn = () => {
+  const handleInstallBtn = (appDetail) => {
     setToggle(true);
-    alert("✅app install");
+
+    addToStoreDb(appDetail);
   };
   const { appData, loading, error } = useAppData();
   const { id } = useParams();
 
   const appId = Number(id);
+  const allReadyInstalled = getStoreApp();
+  const isAllReadyInstalled = allReadyInstalled.filter((p) => p.id === appId);
+  console.log(isAllReadyInstalled);
   if (loading) return <span>Loading...</span>;
   const appDetail = appData.find((app) => app.id === appId);
 
@@ -41,7 +46,7 @@ const DetailsAppCard = () => {
           <div className="space-y-3">
             <div>
               <h1 className="text-3xl font-bold">{appDetail.title}</h1>
-              <p>Developed by {appDetail.company}</p>
+              <p>Developed by : {appDetail.companyName}</p>
             </div>
             <div className="flex gap-20">
               <div>
@@ -61,12 +66,16 @@ const DetailsAppCard = () => {
               </div>
             </div>
             <button
-              onClick={handleInstallBtn}
+              onClick={() => handleInstallBtn(appDetail)}
               className={`bg-[#00d390] text-white py-2 px-4 rounded-md cursor-pointer hover:bg-green-600
-                
-                 ${toggle ? "disabled:" : ""}`}
+                    
+                 `}
             >
-              {!toggle ? `Install Now(${appDetail.size}MB)` : "Installed"}
+              {isAllReadyInstalled.length === 1
+                ? "Installed"
+                : !toggle
+                ? `Install Now(${appDetail.size}MB)`
+                : "Installed"}
             </button>
           </div>
         </div>
