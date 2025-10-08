@@ -27,6 +27,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/details/:id",
+        errorElement: (
+          <div className="text-center text-4xl font-bold mt-7">
+            App is not Found!
+          </div>
+        ),
         element: <DetailsAppCard></DetailsAppCard>,
       },
     ],

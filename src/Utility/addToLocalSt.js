@@ -14,7 +14,7 @@ const addToStoreDb = (app) => {
   try {
     const isDuplicated = storeAppData.some((p) => p.id === app.id);
     if (isDuplicated) return;
-    toast("✅App Installed");
+    toast(`✅${app.title} installed`);
     const updatedStoreApp = [...storeAppData, app];
     localStorage.setItem("installed", JSON.stringify(updatedStoreApp));
   } catch (err) {

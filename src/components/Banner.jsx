@@ -36,7 +36,7 @@ const Banner = () => {
           <img className="mx-auto" src={heroImg} alt="" />
         </div>
       </Container>
-      <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] p-20">
+      <div className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-4 md:p-20">
         <h1 className="text-center  text-5xl font-bold text-white mb-10">
           Trusted by Millions, Built for You
         </h1>

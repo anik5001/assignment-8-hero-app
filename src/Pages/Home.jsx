@@ -9,7 +9,7 @@ import ErrorPage from "./ErrorPage";
 
 const Home = () => {
   const data = useAppData();
-  const { appData, loading, error } = data;
+  const { appData, loading } = data;
   const sliceData = appData.slice(0, 8);
 
   return (
@@ -26,7 +26,7 @@ const Home = () => {
                 Explore All Trending Apps on the Market developed by us
               </p>
             </div>
-            <div className="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-4">
+            <div className="grid grid-cols-1 gap-7 md:grid-cols-3 justify-items-center lg:grid-cols-4">
               {sliceData.map((singleData) => (
                 <AppCard key={singleData.id} singleData={singleData}></AppCard>
               ))}

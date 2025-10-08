@@ -1,9 +1,5 @@
 import React, { useState } from "react";
-import {
-  addToStoreDb,
-  getStoreApp,
-  removeFromInstalled,
-} from "../Utility/addToLocalSt";
+import { getStoreApp, removeFromInstalled } from "../Utility/addToLocalSt";
 import Container from "../components/Container";
 import downloadIcon from "../assets/icon-downloads.png";
 import rattingIcon from "../assets/icon-ratings.png";
@@ -37,10 +33,10 @@ const Installations = () => {
       return installed;
     }
   })();
-  const handleUninstalledBtn = (id) => {
-    toast("✅UnInstall App");
-    removeFromInstalled(id);
-    setInstalled((pre) => pre.filter((p) => p.id !== id));
+  const handleUninstalledBtn = (ap) => {
+    toast(`✅${ap.title} UnInstalling `);
+    removeFromInstalled(ap.id);
+    setInstalled((pre) => pre.filter((p) => p.id !== ap.id));
   };
   return (
     <div>
@@ -79,7 +75,7 @@ const Installations = () => {
                   >
                     <div className="flex items-center gap-5">
                       <img
-                        className="w-[80px] h-[80px] rounded-xl"
+                        className="w-[80px] h-[80px] object-cover rounded-xl"
                         src={ap.image}
                         alt=""
                       />
@@ -107,7 +103,7 @@ const Installations = () => {
                     </div>
                     <div>
                       <button
-                        onClick={() => handleUninstalledBtn(ap.id)}
+                        onClick={() => handleUninstalledBtn(ap)}
                         className="bg-green-500 py-2 px-4 rounded-md text-white cursor-pointer w-full mt-2"
                       >
                         Uninstall

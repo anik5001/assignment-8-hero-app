@@ -27,7 +27,7 @@ const DetailsAppCard = () => {
 
     addToStoreDb(appDetail);
   };
-  const { appData, loading, error } = useAppData();
+  const { appData, loading } = useAppData();
   const { id } = useParams();
 
   const appId = Number(id);
@@ -40,30 +40,35 @@ const DetailsAppCard = () => {
   return (
     <div>
       <Container>
-        <div className="flex gap-5 p-6 border-b-1 border-gray-400 mb-2 items-center">
+        <div className="flex gap-5 md:p-6 border-b-1 border-gray-400 mb-2 items-center">
           <div>
             <img className="rounded-md" src={appDetail.image} alt="" />
           </div>
           <div className="space-y-3">
             <div>
-              <h1 className="text-3xl font-bold">{appDetail.title}</h1>
-              <p>Developed by : {appDetail.companyName}</p>
+              <h1 className="text-xl md:text-3xl font-bold">
+                {appDetail.title}
+              </h1>
+              <p className="border-b-1 border-b-gray-300 pb-3 w-full">
+                Developed by :{" "}
+                <span className="text-violet-500">{appDetail.companyName}</span>
+              </p>
             </div>
-            <div className="flex gap-20">
+            <div className="flex gap-3 md:gap-20">
               <div>
                 <img src={downloadIcon} alt="" />
                 <p>Downloads</p>
-                <p className="font-bold text-4xl">{appDetail.downloads}</p>
+                <p className="font-bold md:text-4xl">{appDetail.downloads}</p>
               </div>
               <div>
                 <img src={rattingIcon} alt="" />
                 <p>Average Ratings</p>
-                <p className="font-bold text-4xl">{appDetail.ratingAvg}</p>
+                <p className="font-bold md:text-4xl">{appDetail.ratingAvg}</p>
               </div>
               <div>
                 <img src={reviewIcon} alt="" />
                 <p>Total Reviews</p>
-                <p className="font-bold text-4xl">{appDetail.reviews}</p>
+                <p className="font-bold md:text-4xl">{appDetail.reviews}</p>
               </div>
             </div>
             <button

@@ -5,7 +5,7 @@ import Loading from "../components/Loading";
 
 const AllAppsPage = () => {
   const data = useAppData();
-  const { appData, loading, error } = data;
+  const { appData, loading } = data;
   const [search, setSearch] = useState("");
   const term = search.trim().toLocaleLowerCase();
   const searchData = term
@@ -17,9 +17,9 @@ const AllAppsPage = () => {
       {loading ? (
         <Loading></Loading>
       ) : (
-        <div className="max-w-7xl mx-auto p-10">
+        <div className="max-w-7xl mx-auto md:p-10">
           <div className="my-10">
-            <h1 className="font-bold text-5xl text-center">
+            <h1 className="font-bold text-2xl md:text-5xl text-center">
               Our All Applications
             </h1>
             <p className="text-center my-4">
@@ -41,8 +41,10 @@ const AllAppsPage = () => {
             </label>
           </div>
 
-          <div className="grid grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-4">
-            {searchData.length === 0 ? (
+          <div className="grid justify-items-center  grid-cols-1 gap-7 md:grid-cols-3 lg:grid-cols-4">
+            {loading ? (
+              <Loading></Loading>
+            ) : searchData.length === 0 ? (
               <div className="col-span-12 text-center text-5xl font-medium py-10">
                 No App Found!
               </div>
